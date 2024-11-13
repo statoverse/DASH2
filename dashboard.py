@@ -12,7 +12,7 @@ df = pd.read_csv(data_path)
 customer_ids = df['SK_ID_CURR'].astype(str).tolist()
 
 # URL de base pour l'API déployée sur Heroku
-base_url = "https://mlapp-effdda91931f.herokuapp.com"
+base_url = "https://flask2-bb12b25af039.herokuapp.com/"
 
 # Configuration de la barre latérale avec une liste déroulante pour sélectionner l'ID du client
 with st.sidebar:
